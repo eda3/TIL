@@ -24,12 +24,13 @@ docker run -it ccc6e87d482b bash
 # Linux
 
 ```
-sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
+apt-get -y install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
 
-sudo apt-get install build-essential curl file git
+apt-get -y install build-essential curl file git
+apt-get -y python3.8
+apt install -y xclip
+apt install -y ansible
 
-sudo apt install -y xclip
-sudo apt install -y ansible
 ```
 
 
