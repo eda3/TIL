@@ -24,6 +24,8 @@ docker run -it ccc6e87d482b bash
 # Linux
 
 ```
+apt-get update && apt-get upgrade
+
 apt-get -y install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
 
 apt-get -y install build-essential curl file git
