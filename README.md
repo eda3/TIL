@@ -81,3 +81,11 @@ systemctl start docker
 
 systemctl enable docker
 ```
+
+# PowerShell
+## ワンライナー
+### Windowsの環境変数PATHを改行区切りで表示させるワンライナー 
+
+```
+echo $env:path | % {$_ -replace(";","`r`n")}
+```
