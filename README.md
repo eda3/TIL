@@ -89,3 +89,10 @@ systemctl enable docker
 ```
 echo $env:path | % {$_ -replace(";","`r`n")}
 ```
+
+# Vim
+## 設定関連
+### .vimrc読み込み先を一覧表示させる
+```
+:set runtimepath
+```
