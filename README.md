@@ -96,3 +96,15 @@ echo $env:path | % {$_ -replace(";","`r`n")}
 ```
 :set runtimepath
 ```
+
+# wasm
+### rustupを入れる
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+export PATH="${PATH}:${HOME}/.cargo/bin"
+```
+
+### wasm-packをインストールする
+```
+curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+```
