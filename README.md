@@ -22,6 +22,7 @@ docker container ps
 docker container stats [NAMES]
 ```
 
+### Ubuntuを入れてから起動するまで
 ```
 docker pull ubuntu
 
