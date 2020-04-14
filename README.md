@@ -1,5 +1,12 @@
 # Docker
 
+## system系のコマンド
+### Dockerの実行環境確認
+```
+docker system info
+```
+
+
 ```
 docker pull ubuntu
 
