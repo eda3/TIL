@@ -6,6 +6,11 @@
 docker system info
 ```
 
+### Dockerのディスク利用状況
+```
+docker system df
+```
+
 
 ```
 docker pull ubuntu
