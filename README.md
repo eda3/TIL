@@ -11,6 +11,16 @@ docker system info
 docker system df
 ```
 
+## container系のコマンド
+### 起動中のコンテナプロセス一覧確認
+```
+docker container ps
+```
+
+### 特定のコンテナの詳細
+```
+docker container stats [NAMES]
+```
 
 ```
 docker pull ubuntu
