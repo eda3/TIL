@@ -40,6 +40,11 @@ docker images
 docker image ls
 ```
 
+### イメージの詳細確認
+```
+docker image inspect [イメージ]
+```
+
 ### dockerイメージを起動してすぐログイン
 ```
 docker run -it ccc6e87d482b bash
