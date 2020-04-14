@@ -36,6 +36,7 @@ docker login -e
 ### イメージ一覧
 ```
 docker images
+docker image ls
 ```
 
 ### dockerイメージを起動してすぐログイン
