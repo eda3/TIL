@@ -55,8 +55,9 @@ docker run -it ccc6e87d482b bash
 docker exec -it pedantic_morse bash
 ```
 
-# Linux
+---
 
+# Linux
 ```
 apt-get update && apt-get upgrade
 
