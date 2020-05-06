@@ -138,3 +138,9 @@ export PATH="${PATH}:${HOME}/.cargo/bin"
 ```
 curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 ```
+
+# Git
+### WindowsのGitのバージョンをあげる
+```
+git update-git-for-windows
+```
