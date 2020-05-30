@@ -134,6 +134,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 export PATH="${PATH}:${HOME}/.cargo/bin"
 ```
 
+### gnu版のrust toolchainをインストール/アンインストール
+ ```
+rustup toolchain install stable-x86_64-pc-windows-gnu
+rustup toolchain uninstall stable-x86_64-pc-windows-gnu
+
+ ```
+
 ### wasm-packをインストールする
 ```
 curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
